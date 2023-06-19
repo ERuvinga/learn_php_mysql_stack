@@ -32,13 +32,8 @@
                             </div><br/>
                             <div class="form-group">
                                 <label for="Oname">Prenon *</label>
-                                <input type="text" class="form-control" name="lname" placeholder="Prenom" required
+                                <input type="text" class="form-control" name="Oname" placeholder="Prenom" required
                                     id="lname" />
-                            </div><br/>
-
-                            <div class="form-group">
-                                <label for="sborn">lieu de naissance</label>
-                                <input type="text" class="form-control" name="sborn" placeholder="lieu de naisc" required id="sborn" />
                             </div><br/>
 
                             <div class="form-group">
@@ -50,10 +45,14 @@
                                 <label for="email">e-mail</label>
                                 <input type="text" class="form-control" name="email" placeholder="adresse email" required id="email" />
                             </div><br/>
+                            <div class="form-group">
+                                <label for="sborn">lieu de naissance</label>
+                                <input type="text" class="form-control" name="sborn" placeholder="lieu de naisc" required id="sborn" />
+                            </div><br/>
 
                             <div class="form-group">
                                 <label for="dborn">Date de naissance</label>
-                                <input type="date" class="form-control" name="sborn" placeholder="date de naisc" required id="dborn" />
+                                <input type="date" class="form-control" name="dborn" placeholder="date de naisc" required id="dborn" />
                             </div><br/>
 
                             <div class="form-group">
