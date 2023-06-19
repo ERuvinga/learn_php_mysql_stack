@@ -66,33 +66,8 @@ nav .list {
     margin-right: 5px;
 }
 
+/* Register form*/
 
-/*Media*/
-
-@media screen and (max-width: 750px) {
-    .displayNav {
-        list-style: none;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    header .list {
-        margin: 10px 0;
-        width: 150px;
-    }
-
-    header .logo i {
-        display: block;
-        color: #505050;
-    }
-
-
-    header nav .nav-list {
-        height: 0;
-        display: none;
-    }
-
+.formCard{
+    margin-top: 50px;
 }
