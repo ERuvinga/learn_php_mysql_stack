@@ -7,7 +7,7 @@ body {
     height: 100vh;
     background-image: url("../images/image3.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 110%;
 }
 .border {
     border: solid 1px black;
@@ -120,4 +120,44 @@ header .link-connect{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+/*About*/
+#about {
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+#about div{
+    width: 40%;
+    margin-left: 50px;
+}
+
+#about div h2{
+    margin-bottom: 20px;
+}
+
+#about div p{
+    color: #505050;
+}
+
+/*footer*/
+footer{
+    background-color: #505050;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-top: 20px;
+    padding:20px 0;
+    height: auto;
+}
+
+footer .f-about{
+    width: 20%;
 }
