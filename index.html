@@ -13,27 +13,86 @@
         <link rel="stylesheet" href="./style/style.css">
     </head>
     <body>
-        <header class="bg-info">
-            <div class="container ">
-                <div class="row">
-                    <div class="col-md-3 col-xs-12 boxLogo">
-                        <div class="logo text-center">
-                            <img src="images/favicon.png" alt="logo" />
-                            <i class="fa-solid fa-arrow-down" id="btnmenu"></i>
+        <section class="bodyPage">
+            <header class="bg-white">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12 boxLogo">
+                            <div class="logo text-center">
+                                <img src="images/favicon.png" alt="logo" />
+                                <i class="fa-solid fa-arrow-down" id="btnmenu"></i>
+                            </div>
+                        </div>
+                        <nav class="col-md-7 col-xs-12 ">
+                            <ul class="nav-list ">
+                                <li class="list"><a href="#"><i class="fa-solid fa-house-chimney mr"></i> Home</a></li>
+                                <li class="list"><a href="#about"><i class="fa-solid fa-circle-question mr"></i> About</a></li>
+                                <li class="list"><a href="./pages/formulaire.php"><i class="fa-solid fa-user-plus mr"></i>Register</a></li>
+                                <li class="list"><a href="./pages/contact.php"><i class="fa-solid fa-phone-flip mr"></i> Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class=" col-md-2 link-connect">
+                            <a class="text-center text-white bg-success" href="./pages/login.php">Login</a>
                         </div>
                     </div>
-                    <nav class="col-md-7 col-xs-12 ">
-                        <ul class="nav-list ">
-                            <li class="list"><a href="#"><i class="fa-solid fa-house-chimney mr"></i> Home</a></li>
-                            <li class="list"><a href="#about"><i class="fa-solid fa-circle-question mr"></i> About</a></li>
-                            <li class="list"><a href="./pages/formulaire.html"><i class="fa-solid fa-user-plus mr"></i>Register</a></li>
-                            <li class="list"><a href="#"><i class="fa-solid fa-phone-flip mr"></i> Contact</a></li>
-                        </ul>
-                    </nav>
-                    <div class="border col-md-2"></div>
                 </div>
+            </header>
+            <section class="descr-text ">
+                <h1>UNITECH UNIVERSITY</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis pariatur debitis minima ducimus earum porro, 
+                    hic, neque, quod deserunt omnis expedita corrupti temporibus! Quo sequi dignissimos obcaecati repudiandae mollitia.
+                </p>
+
+                <div class="link-connect">
+                    <a class="text-center text-white bg-success" href="./pages/login.php">Login</a>
+                </div>
+            </section>
+        </section>
+        <section id="about">
+            <img src="images/about.jpg" alt="about"/>
+            <div >
+                <h2>About</h2>
+                <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum error recusandae blanditiis quaerat officiis
+                        impedit ipsum dolor mollitia officia numquam quia,repudiandae laudantium minima nobis aliquid veniam nemo 
+                        natus iste.impedit ipsum dolor mollitia officia numquam quia,repudiandae laudantium minima nobis aliquid veniam nemo 
+                        natus iste.
+                </p>
             </div>
-        </header>
+        </section>
+        <footer class="border ">
+            <div class="f-about">
+                <h3>Unitech</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Cupiditate sapiente .
+                </p>
+                <p>
+                    @CopyrightUnitech
+                </p>
+            </div>
+            <div class="f-about">
+                <h3>Departement</h3>
+                <p>
+                    <ul>
+                        <li>R.I.T</li>
+                        <li>Genie Elec</li>
+                        <li>Geni Meca</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="f-about"> 
+                <h3 >Promotion</h3>
+                <p>
+                    <ul>
+                        <li>L1</li>
+                        <li>L2</li>
+                        <li>L3</li>
+                    </ul>
+                </p>
+            </div>
+            <div></div>
+        </footer>
         <script src="./js/bootstrap.bundle.min.js"></script>
         <script src="./js/main.js"></script>
         <script src="./js/jquery-3.6.0.min.js"></script>

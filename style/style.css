@@ -2,7 +2,13 @@ body {
     margin: auto;
     width: 100%;
 }
-
+.bodyPage {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/image3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+}
 .border {
     border: solid 1px black;
 }
@@ -11,7 +17,7 @@ header {
     width: 100%;
     height: auto;
     padding: 10px 0;
-    border-bottom: solid 1px #efefef;
+    box-shadow: 1px 0px 5px #505050;
 }
 
 header .boxLogo{
@@ -70,4 +76,88 @@ nav .list {
 
 .formCard{
     margin-top: 50px;
+}
+
+/*btn Login*/
+header .link-connect{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.link-connect a{
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0px #505050;
+    transition: all .6s;
+}
+
+.link-connect a:hover{
+    transform: scale(1.02);
+    opacity: .7;
+    transition: all .6s;
+}
+
+/*body */
+.descr-text {
+    width: 45%;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.descr-text h1{
+    color: black ;
+    margin-bottom: 30px;
+}
+
+.descr-text p{
+    color: #505050;
+}
+
+.descr-text div{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*About*/
+#about {
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+#about div{
+    width: 40%;
+    margin-left: 50px;
+}
+
+#about div h2{
+    margin-bottom: 20px;
+}
+
+#about div p{
+    color: #505050;
+}
+
+/*footer*/
+footer{
+    background-color: #505050;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-top: 20px;
+    padding:20px 0;
+    height: auto;
+}
+
+footer .f-about{
+    width: 20%;
 }
