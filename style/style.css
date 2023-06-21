@@ -56,22 +56,33 @@ header nav .nav-list {
 
 nav .nav-list {
     margin-top: 16px;
+    transition: all .5s;
 }
+
 
 nav .list a {
     text-decoration: none;
     color: #505050;
+    transition: color .5s ease-in-out;
 }
 
-nav .list {
-    display: flex;
+nav .list a:hover {
+    color: green;
+    transition: color .5s ease-in-out;
 }
 
+.nav-list li{
+    transition: all .5s ease-in-out;
+}
+.nav-list li:hover{
+    transform: scale(1.08);
+    transition: all .5s ease-in-out;
+}
 
 .mr {
     margin-right: 5px;
 }
-
+ 
 /* Register form*/
 
 .formCard{
@@ -126,14 +137,14 @@ header .link-connect{
 #about {
     width: 90%;
     margin: auto;
+    margin-top: 50px;
     height: fit-content;
     display: flex;
     justify-content: flex-start;
-    margin-top: 30px;
 }
 
 #about div{
-    width: 40%;
+    width: 60%;
     margin-left: 50px;
 }
 
@@ -144,6 +155,30 @@ header .link-connect{
 #about div p{
     color: #505050;
 }
+
+/*stack*/
+#stack {
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+}
+
+#stack div{
+    width: 60%;
+    margin-right: 50px;
+}
+
+#stack div h2{
+    margin-bottom: 20px;
+}
+
+#stack div p{
+    color: #505050;
+}
+
 
 /*footer*/
 footer{
@@ -160,4 +195,18 @@ footer{
 
 footer .f-about{
     width: 20%;
+}
+
+/*bouton et liens*/
+.btns a{
+    text-decoration: none;
+}
+
+/* image profil*/
+
+.imgprofil{
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px 1px #505050;
 }
