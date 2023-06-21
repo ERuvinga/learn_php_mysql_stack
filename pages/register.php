@@ -18,23 +18,27 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6 formCard">
                     <div class="card">
-                        <h1 class="text-center bg-info text-white card-header">Login</h1>
-                        <form action="#" method="post" class="card-body form-control">
+                        <h1 class="text-center bg-info text-white card-header">Register</h1>
+                        <form action="table.php" method="post" class="card-body form-control">
+
                             <div class="form-group">
-                                <label for="name">e-mail/userName</label>
-                                <input type="text" class="form-control" name="name" placeholder="email" required
-                                    id="name" />
+                                <label for="email">e-mail</label>
+                                <input type="text" class="form-control" name="email" placeholder="adresse email" required id="email" />
                             </div><br/>
-  
+
                             <div class="form-group">
-                                <label for="pswrd">mot de pass</label>
+                                <label for="pswrd">passWord*</label>
                                 <input type="password" class="form-control" name="pswrd" placeholder="votre mot de pass" required id="pswrd" />
                             </div><br/>
 
+                            <div class="form-group">
+                                <label for="cpswrd">confirm password</label>
+                                <input type="password" class="form-control" name="cpswrd" placeholder="cofirm mot de pass" required id="pswrd" />
+                            </div><br/>
+
                             <div class="btns form-group">
-                                <input type="reset" value="initilisation" class="btn btn-warning" />
                                 <input type="submit" value="Envoit" class="btn btn-success" />
-                                <a href="./register.php" class="text-info"> pas de compte ? <i>Register</i></a>
+                                <a href="./login.php" class="text-info"> avez vous un compte ? <i>Login</i></a>
                             </div>
                         </form>
                     </div>

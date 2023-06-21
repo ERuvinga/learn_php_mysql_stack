@@ -196,3 +196,8 @@ footer{
 footer .f-about{
     width: 20%;
 }
+
+/*bouton et liens*/
+.btns a{
+    text-decoration: none;
+}
