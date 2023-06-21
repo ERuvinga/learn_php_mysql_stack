@@ -21,7 +21,7 @@
                         <h1 class="text-center bg-info text-white card-header">Login</h1>
                         <form action="#" method="post" class="card-body form-control">
                             <div class="form-group">
-                                <label for="name">e-mail/userName</label>
+                                <label for="name">e-mail or userName</label>
                                 <input type="text" class="form-control" name="name" placeholder="email" required
                                     id="name" />
                             </div><br/>
@@ -34,7 +34,7 @@
                             <div class="btns form-group">
                                 <input type="reset" value="initilisation" class="btn btn-warning" />
                                 <input type="submit" value="Envoit" class="btn btn-success" />
-                                <a href="./register.php" class="text-info"> pas de compte ? <i>Register</i></a>
+                                <a href="./register.php" class="text-info"> pas de compte ? <i>Créer un compte</i></a>
                             </div>
                         </form>
                     </div>
