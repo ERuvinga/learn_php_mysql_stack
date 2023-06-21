@@ -18,6 +18,7 @@
     <script>
         alert('    <?php 
         echo $_GET['msg'];
+        var_dump($_FILES['imgp']);
     ?>')
     </script>
 
@@ -45,7 +46,7 @@
                             
                                 <tr>
                                     <td><?php echo $row['matricule'];?></td>
-                                    <td><?php  echo $row['img']; ?></td>
+                                    <td><img class="imgprofil" src="<?php echo $row['img']?>" alt='profil'/></td>
                                     <td><?php  echo $row['name'];?></td>
                                     <td><?php  echo $row['email'];?></td>
                                     <td><?php  echo $row['pswd'];?></td>

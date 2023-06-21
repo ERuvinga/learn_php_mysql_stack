@@ -201,3 +201,12 @@ footer .f-about{
 .btns a{
     text-decoration: none;
 }
+
+/* image profil*/
+
+.imgprofil{
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px 1px #505050;
+}

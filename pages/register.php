@@ -42,7 +42,7 @@
 
                             <div class="form-group">
                                 <label for="imgp">confirm password</label>
-                                <input type="file" class="form-control" name="imgp"/>
+                                <input type="file" class="form-control" name="imgp" required/>
                             </div><br/>
 
                             <div class="btns form-group">
