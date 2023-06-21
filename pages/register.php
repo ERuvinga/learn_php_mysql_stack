@@ -19,7 +19,7 @@
                 <div class="col-md-6 formCard">
                     <div class="card">
                         <h1 class="text-center bg-info text-white card-header">Register</h1>
-                        <form action="registerprocess.php" method="post" class="card-body form-control">
+                        <form action="registerprocess.php" method="post" class="card-body form-control" enctype = "multipart/form-data">
 
                         <div class="form-group">
                                 <label for="name">name</label>
@@ -38,6 +38,11 @@
                             <div class="form-group">
                                 <label for="cpswrd">confirm password</label>
                                 <input type="password" class="form-control" name="cpswrd" placeholder="cofirm mot de pass" required id="pswrd" />
+                            </div><br/>
+
+                            <div class="form-group">
+                                <label for="imgp">confirm password</label>
+                                <input type="file" class="form-control" name="imgp"/>
                             </div><br/>
 
                             <div class="btns form-group">
